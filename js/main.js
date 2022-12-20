@@ -86,6 +86,15 @@ delete EXO4[2];
 
 // 6. Afficher le contenu le d'array
 
-
 console.log(`EXO4 values: ${EXO4}`);
 
+// Bonus merge 2 tableaux
+
+const t1 = ["kad",23];     
+console.log(t1)
+
+const t2 = ["flo",44];
+console.log(t2)
+
+const tfinal = t1.concat(t2);
+console.log(tfinal);
